@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+  }
+  
+  .navbar li a {
+    color: rgb(255, 0, 0);
+    transition: ease;
+  }
+
+  .logo {
+    float: left;
+  }
+  
+  .logo li a {
+    color: rgb(255, 0, 0);
+  }  
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Images/Dark-BG.png);
+    background-size: cover;
+
+}
+
+.contact .content {
+    max-width: 200vh;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    margin-top: -300px;
+    padding: 10px 0;
+    font-size: 36px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.content p {
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.container-contact {
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.contactForm {
+
+    margin: -410px 450px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 70px;
+    background: #fff;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+    color: #000000;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: rotateY('-20px');
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #faf8f8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    padding: 20px 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: -800px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card img {
+    height: auto;
+    width: 50px;
+    display: flex;
+    text-align: left;
+    margin: 0;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding-top: 20px;
+  }
+  
+  .card h3 {
+    text-align: left;
+    font-weight: 500px;
+    color: #111;
+    padding: -10px 0;
+    margin-top: -50px;
+    margin-left: 70px;
+  }
+  .card p {
+    text-align: left;
+    margin-left: 70px;
+  }
