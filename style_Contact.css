@@ -49,7 +49,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(Images/Dark-BG.png);
+    background-image: url(images/Dark-BG.png);
     background-size: cover;
 
 }
